@@ -1,0 +1,32 @@
+/* Write your CSS code here
+const modifiedData = {
+      id: data.id,
+      avatarUrl: data.avatar_url,
+      imageUrl: data.image_url,
+      author: data.author,
+      title: data.title,
+      topic: data.topic,
+    }
+
+    console.log(modifiedData)
+
+
+    <ul className="blog-list-container">
+        {blogList.map(eachItem => (
+          <BlogItem key={eachItem.id} itemData={eachItem} />
+        ))}
+      </ul>
+*/
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+  width: 80%;
+}
+
+.title {
+  align-self: flex-start;
+}

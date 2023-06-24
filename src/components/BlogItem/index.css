@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.blog-link {
+  text-decoration: none;
+}
+
+.list-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  width: 71%;
+}
+
+.item-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.img-url {
+  width: 45%;
+  height: 100%;
+  margin-right: 15px;
+}
+
+.author-profile-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  margin-right: 8px;
+}
+
+.author-profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
